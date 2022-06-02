@@ -2,7 +2,7 @@ package ru.netology.sqr;
 
 public class SQRService {
 
-    public int CrazyCalc(int bottom, int top) {
+    public int crazyCalc(int bottom, int top) {
         int count = 0;
         for (int i = 10; i <= 99; i++) {
             if (i * i >= bottom) {
