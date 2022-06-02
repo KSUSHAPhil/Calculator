@@ -7,7 +7,7 @@ public class Main {
         int bottom = 10;
         int top = 99;
 
-        int result = service.CrazyCalc(bottom, top);
+        int result = service.crazyCalc(bottom, top);
         System.out.println(result);
     }
 }
