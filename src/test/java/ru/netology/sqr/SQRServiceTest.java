@@ -10,7 +10,7 @@ public class SQRServiceTest {
     public void test(int bottom, int top, int expected) {
         SQRService service = new SQRService();
 
-        int actual = service.CrazyCalc(bottom, top);
+        int actual = service.crazyCalc(bottom, top);
 
         Assertions.assertEquals(expected, actual);
 
